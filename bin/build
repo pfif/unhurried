@@ -1,0 +1,3 @@
+cd unhurried-js-app
+npm ci
+npm build
