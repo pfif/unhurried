@@ -21,5 +21,4 @@ workflows:
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
           app-dir: unhurried-js-app
-      - eslint:
-          wd: unhurried-js-app
+      - eslint
