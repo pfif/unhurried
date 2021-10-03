@@ -8,6 +8,8 @@ orbs:
 
 jobs:
   eslint:
+    executor:
+      name: node/default
     steps:
       - checkout
       - node/install-packages:
