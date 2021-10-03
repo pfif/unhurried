@@ -1,4 +1,5 @@
-* An interface for Spotify without recommendation
+* Unhurried
+A user interface for Spotify without recommendation
 ** Pedantic manifesto
 I do not like being shown recommendations / suggestions when I do not
 ask for them. I do not like that it takes away agency from me. I do
