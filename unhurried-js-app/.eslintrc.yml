@@ -18,3 +18,6 @@ plugins:
 rules: {
   "prettier/prettier": "error"
 }
+settings:
+  react:
+    version: detect
