@@ -2,12 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-function testBad(beeh) {
-  return beeh;
-}
-
 function App() {
-  testBad(5);
   return (
     <div className="App">
       <header className="App-header">
