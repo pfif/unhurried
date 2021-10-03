@@ -1,8 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { auth, getTokenFromAuth } from "./authentication";
 
 function App() {
+  const [token, setToken] = useState(getTokenFromAuth(auth));
+
+  useEffect(() => {
+    const onAuth = (error, { provider }) => {
+      if (error) {
+        console.error(error);
+        // TODO: HANDLE ERROR
+        return;
+      }
+
+      setToken(getTokenFromAuth(auth));
+    };
+
+    auth.on("login", onAuth);
+    auth.on("logout", onAuth);
+  }, []);
+
+  console.log(token);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +38,13 @@ function App() {
         >
           Learn React
         </a>
-        <p>Test code</p>
+        <p
+          onClick={() => {
+            auth.login("spotify");
+          }}
+        >
+          Token
+        </p>
       </header>
     </div>
   );
