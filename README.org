@@ -28,6 +28,7 @@ DEADLINE: <2021-10-03 zo>
 **** TODO Have the app periodically fetch the available devices
 **** TODO Code homepage
 **** TODO Code search page
+**** TODO Add ethical anonymous user tracking
 *** TODO See if I like it
 DEADLINE: <2021-12-03 vr>
 *** TODO See if other people like it
