@@ -12,8 +12,9 @@ Pages filled with recommendations give you things without exploration,
 they get you to the end of the journey directly, with all the rewards
 given to you. But without the journey, they are meaningless.
 
-As such (but not only for this reason), Spotify's interface is
-anathema to me. This project aims at providing a replacement for it.
+As such (but not only for this reason), I don't like Spotify's
+interface very much. This project aims at providing a replacement for
+it.
 
 ** Short term goals of the project
 *** TODO Hack together an interface for Spotify that allows to control the player and search for music
